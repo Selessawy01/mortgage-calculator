@@ -1,0 +1,64 @@
+// COLORS
+$white        : #FFFFFF;
+$black        : #000000;
+
+$red          : #D73328;
+
+$lime         : #D8DB2F;
+$slate-900    : #133041;
+$slate-700    : #4E6E7E;
+$slate-500    : #6B94A8;
+$slate-300    : #9ABED5;
+$slate-100    : #E4F4FD;
+
+
+
+// SPACING
+$spacing-50   : 0.25rem;    // 4px
+$spacing-100  : 0.5rem;     // 8px
+$spacing-150  : 0.75rem;    // 12px
+$spacing-200  : 1rem;       // 16px
+$spacing-300  : 1.5rem;     // 24px
+$spacing-400  : 2rem;       // 32px
+$spacing-500  : 2.5rem;     // 40px
+
+// TYPOGRAPHY
+$ff-jakarta   :  "Plus Jakarta Sans", sans-serif;
+
+// Typography — font sizes
+$fs-100  : 0.875rem;   // 14px 
+$fs-200  : 1rem;       // 16px 
+$fs-250  : 1.125rem ;  // 18px
+$fs-300  : 1.5rem;     // 24px 
+$fs-400  : 2.5rem;     // 40px
+$fs-500  : 3.5rem;     // 56px
+
+
+//font weight
+$fw-medium    : 500;
+$fw-bold      : 700;
+
+
+$txt-primary-clr     : $slate-900;
+$txt-secondary-clr   : $slate-700;
+$txt-muted-clr       : $slate-300;
+$txt-inverse-clr     : $white;
+
+//Accent 
+$accent-clr : $lime;
+$error-clr  : $red;
+
+//Background
+$bg-clr-primary             : $slate-100;
+$bg-clr-secondary           : $white;
+
+//Border-raduis
+$radius-border      : 1.5rem;
+$radius-border-s    : 0.25rem;
+$radius-pill        : 62.4375rem;
+
+$divider-clr   : color-mix(in srgb, $white 25%, $slate-300);
+
+
+
+

@@ -1,0 +1,56 @@
+@use "../abstract/variables" as v;
+
+*, *::after, *::before {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+img,picture,video,canvas,svg {   
+    display   : block;
+    max-width : 100%;  
+    height    : auto;
+}
+
+button,
+input,
+textarea,
+select {
+    font-size  : inherit;
+    font-weight: inherit;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-size   : inherit;
+  font-weight : inherit;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,body {
+   font-family  : v.$ff-jakarta;
+    background  : v.$slate-300;
+}
+
+button {
+  cursor: pointer;
+}
+
+fieldset {
+  border          : 0;
+  min-inline-size : 0;
+}
+
+:focus-visible {
+  outline-offset: 0.1875rem;
+}

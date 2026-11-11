@@ -1,0 +1,35 @@
+@use "../abstract/variables" as v;
+
+.amount-text{
+    font-size      : clamp(v.$fs-400,8vw,v.$fs-500);
+    font-weight    : v.$fw-bold;
+    line-height    : 1.25 ;
+}
+.xl-text {
+    font-size      : v.$fs-300;
+    font-weight    : v.$fw-bold;
+    line-height    : 1.25;
+
+}
+
+.lg-text {
+    font-size      : v.$fs-250;
+    font-weight    : v.$fw-bold;
+    line-height    : 1.25;
+}
+
+.md-text {
+    font-size      : v.$fs-200;
+    font-weight    : v.$fw-medium ;
+    line-height    : 1.5;
+}
+
+.sm-text {
+    font-size      : v.$fs-100;
+    font-weight    : v.$fw-medium;
+    line-height    : 1.5;
+    
+}
+
+
+

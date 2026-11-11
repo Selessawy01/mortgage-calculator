@@ -1,0 +1,115 @@
+@use "../abstract/breakpoints" as b;
+@use "../abstract/variables" as v;
+
+.results {
+    background : v.$slate-900;
+    padding    : clamp(v.$spacing-400,6vw,v.$spacing-500) clamp(v.$spacing-300,6vw,v.$spacing-500);
+    width      : 100%;
+  
+    @media (min-width :b.$bp-md){
+    border-radius : 0 0 v.$radius-border v.$radius-border;
+    max-width     : 43rem;
+    }
+
+    @media (min-width :b.$bp-xl){
+    border-radius   : 0 v.$radius-border v.$radius-border 5rem;
+    min-height      : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+}
+}
+.results__empty {
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    gap             : v.$spacing-200;
+}
+
+.results__image {
+    width           : 12rem;
+    height          : 12rem;
+    object-fit      : contain;
+}
+
+.results__empty .results__title,
+.results__empty .results__paragraph {
+  text-align: center;
+}
+
+.results__title {
+    color           : v.$txt-inverse-clr;
+}
+
+.results__paragraph{
+    color           : v.$txt-muted-clr;
+}
+
+.results__output{
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : flex-start;
+    justify-content : center;
+    gap             : clamp(v.$spacing-300,6vw,v.$spacing-500);
+}
+
+.results__header{
+    display         : flex;
+    flex-direction  : column;
+    align-items     : flex-start;
+    justify-content : center;
+    gap             : v.$spacing-200;
+}
+
+.results__header p {
+    text-align      : start;
+}
+
+.results__result{
+    padding         : clamp(v.$spacing-300,5vw,v.$spacing-400) clamp(v.$spacing-200,4.2vw,v.$spacing-400);
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : flex-start;
+    justify-content : center;
+    gap             : clamp(v.$spacing-200,4.2vw,v.$spacing-400);
+    background      : color-mix(in srgb, black 25%, v.$slate-900);
+    border-radius   : 0.5rem;
+    border-top      : 0.25rem solid v.$accent-clr;
+}
+.results__separator {
+    width            : 100%;
+    height           : 1px;
+    background-color : v.$divider-clr;
+}
+.results__monthly ,
+.results__total {
+    display         : flex;
+    flex-direction  : column;
+    align-items     : flex-start;
+    justify-content : center;
+    gap             : v.$spacing-100;
+}
+.results__total {
+  width :100%;
+  border-top    : 1px solid v.$divider-clr;
+  padding-top   : 2rem; 
+}
+
+.results__result dd,
+.results__result dt {
+  margin: 0;
+}
+.results__monthly-title,
+.results__total-title {
+    color           : v.$txt-muted-clr;
+}
+.results__monthly-amount{
+    color           : v.$accent-clr;
+}
+.results__total-amount {
+    color           : v.$txt-inverse-clr;
+}
