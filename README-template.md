@@ -8,7 +8,7 @@ The project was built to practice React, SCSS, form handling, calculations, and 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -32,17 +32,29 @@ Users should be able to:
 - View a responsive layout across different screen sizes.
 - See hover and focus states for interactive elements.
 
-### Screenshot
+### Screenshots
 
-![Mortgage Repayment Calculator screenshot](./screenshot.jpg)
+#### Repayment - Desktop
 
-*Replace `screenshot.jpg` with the filename of your actual screenshot if it is different.*
+![Repayment calculator desktop](./screenshots/Screenshot-Desktop-Repayment.png)
+
+#### Repayment - Mobile
+
+![Repayment calculator mobile](./screenshots/Screenshot-Mobile-Repayment.png)
+
+#### Interest Only
+
+![Interest Only calculator](./screenshots/Screenshot%20-desktop-Interset.png)
+
+#### Validation Errors
+
+![Validation errors](./screenshots/Screenshot-errors.png)
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL](https://www.frontendmentor.io/)
-- Live Site URL: [Add your deployed project URL](https://your-live-site-url.com)
-- GitHub Repository: [View source code](https://github.com/Selessawy01/mortgage-calculator)
+- **Solution URL:** [Add your Frontend Mentor solution URL](https://www.frontendmentor.io/)
+- **Live Site URL:** [Mortgage Repayment Calculator](https://selessawy01.github.io/mortgage-calculator/)
+- **GitHub Repository:** [Mortgage Calculator](https://github.com/Selessawy01/mortgage-calculator)
 
 ## My process
 
@@ -79,9 +91,9 @@ I learned how to calculate monthly repayments using the mortgage repayment formu
 
 For a repayment mortgage, the monthly payment is calculated using:
 
-\[
-M = P \frac{r(1+r)^n}{(1+r)^n-1}
-\]
+```text
+M = P × [r(1 + r)^n] / [(1 + r)^n - 1]
+```
 
 Where:
 
@@ -138,7 +150,7 @@ I wrote and implemented the project myself, using AI guidance to understand prob
 ## Author
 
 - GitHub - [@Selessawy01](https://github.com/Selessawy01)
-- Frontend Mentor - [Add your Frontend Mentor profile](https://www.frontendmentor.io/)
+- Frontend Mentor - [@Selessawy01](https://www.frontendmentor.io/profile/Selessawy01)
 
 ## Acknowledgments
 
