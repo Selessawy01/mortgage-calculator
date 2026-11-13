@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import MortgageForm from "./MortgageForm";
-import MortgageResults from './MortgageResults';
-
-import './App.css'
-
+import MortgageForm from "./components/MortgageForm";
+import MortgageResults from './components/MortgageResults';
 
 function App() {
   

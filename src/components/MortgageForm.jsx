@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { calculateMortgage } from './utils/calculateMortgage'
-import { MORTGAGE_TYPES } from './utils/constants'
-import { sanitizeNumber, formatWithCommas } from './utils/formatNumbers'
+import { calculateMortgage } from '../utils/calculateMortgage'
+import { MORTGAGE_TYPES } from '../utils/constants'
+import { sanitizeNumber, formatWithCommas } from '../utils/formatNumbers'
 import FormField from './FormField'
-import calculatorIcon from './assets/images/icon-calculator.svg'
+import calculatorIcon from '../assets/images/icon-calculator.svg'
 
 const initialValues = { amount: '', term: '', interest: '', type: '' }
 

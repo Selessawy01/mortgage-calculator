@@ -1,5 +1,5 @@
-import { formatGBP } from './utils/formatNumbers'
-import emptyIllustration from './assets/images/illustration-empty.svg'
+import { formatGBP } from '../utils/formatNumbers'
+import emptyIllustration from '../assets/images/illustration-empty.svg'
 
 function MortgageResults({ results }) {
   return (
